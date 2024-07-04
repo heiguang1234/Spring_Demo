@@ -3,6 +3,10 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
     <bean id="user" class="com.cl.bean.User">
-
     </bean>
+    <bean id="orders" class="com.cl.bean.Orders" init-method="initMethod" destroy-method="destoryMethod">
+        <property name="oname" value="手机"></property>
+    </bean>
+    <bean id="emp" class="com.cl.Autowire.Emp" autowire="byName"></bean>
+    <bean id="dept" class="com.cl.Autowire.Dept"></bean>
 </beans>
