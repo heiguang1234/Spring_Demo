@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="605de281-3833-4c42-80ed-087a79ca98b4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cl/aopanno/UserProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cl/aopanno/UserProxy.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,9 +31,7 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="customMavenHome" value="$USER_HOME$/environment/apache-maven-3.8.6" />
         <option name="localRepository" value="$USER_HOME$/environment/apache-maven-3.8.6/maven-repo" />
-        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
         <option name="userSettingsFile" value="$USER_HOME$/environment/apache-maven-3.8.6/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -49,31 +48,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.TestBean01.executor": "Run",
-    "Application.TestSpring5.executor": "Run",
-    "JUnit.Test01.executor": "Run",
-    "JUnit.Test01.test.executor": "Run",
-    "JUnit.TestBean01.Test01.executor": "Run",
-    "JUnit.TestBean01.Test02.executor": "Run",
-    "JUnit.TestBean01.Test03.executor": "Run",
-    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.TestBean01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestSpring5.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test01.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test01.test.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestBean01.Test01.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestBean01.Test02.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestBean01.Test03.executor&quot;: &quot;Run&quot;,
+    &quot;Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\cl\IdeaProjects\Spring_Demo\src\main\resources" />

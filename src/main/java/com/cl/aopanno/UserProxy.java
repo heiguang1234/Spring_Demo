@@ -6,10 +6,13 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Aspect
-
 public class UserProxy {
+    @Pointcut(value = "execution(* com.cl.aopanno.User.add(..))")
+    public void PointCut(){
+
+    }
 //    前置通知 方法执行之前
-    @Before(value = "execution(* com.cl.aopanno.User.add(..))")
+    @Before(value = "PointCut()")
     public void before(){
         System.out.println("before");
     }
