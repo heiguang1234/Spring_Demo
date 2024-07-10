@@ -2,6 +2,8 @@ package com.test;
 
 import com.cl.Autowire.Emp;
 import com.cl.bean.Orders;
+//import com.cl.bean.User;
+import com.cl.aopanno.User;
 import com.cl.service.UserService;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
@@ -27,5 +29,11 @@ public class TestBean01 {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
         UserService userService = context.getBean("userService", UserService.class);
         userService.add();
+    }
+    @Test
+    public void Test03(){
+        ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("beans.xml");
+        User user = context.getBean("user", User.class);
+        user.add();
     }
 }

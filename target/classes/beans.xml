@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:context="http://www.springframework.org/schema/context" xsi:schemaLocation="
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xmlns:aop="http://www.springframework.org/schema/aop"
+        xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
-        http://www.springframework.org/schema/context
-        http://www.springframework.org/schema/context/spring-context.xsd">
+        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 <!--开启组件扫描
    1.如果扫描多个包，用逗号隔开
    2.扫描包 的上层目录-->
-    <context:component-scan base-package="com.cl"></context:component-scan>
-    <bean id="user" class="com.cl.bean.User">
-    </bean>
-    <bean id="orders" class="com.cl.bean.Orders" init-method="initMethod" destroy-method="destoryMethod">
-        <property name="oname" value="手机"></property>
-    </bean>
+    <context:component-scan base-package="com.cl.aopanno"></context:component-scan>
+
+<!--    <bean id="orders" class="com.cl.bean.Orders" init-method="initMethod" destroy-method="destoryMethod">-->
+<!--        <property name="oname" value="手机"></property>-->
+<!--    </bean>-->
 <!--实现自动装配
     bean标签属性autowire，配置自动装配
     autowire属性常用两个值：
     byname根据属性名称注入 ，注入bean的id值和类属性名称一样
     butype根据属性类型注入-->
-    <bean id="emp" class="com.cl.Autowire.Emp" autowire="byName"></bean>
-    <bean id="dept" class="com.cl.Autowire.Dept"></bean>
+<!--    <bean id="emp" class="com.cl.Autowire.Emp" autowire="byName"></bean>-->
+<!--    <bean id="dept" class="com.cl.Autowire.Dept"></bean>-->
+    <aop:aspectj-autoproxy></aop:aspectj-autoproxy>
 </beans>
